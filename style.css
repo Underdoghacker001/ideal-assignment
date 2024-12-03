@@ -3,7 +3,7 @@
 }
 
 .main-container {
-  width: 1300px;
+  width: 80%;
   margin: 20px auto;
 }
 
@@ -212,6 +212,7 @@ input:checked+.slider:before {
   padding-left: 100px;
   padding-top: 70px;
   box-sizing: border-box;
+  border-radius: 20px;
 }
 
 .digital-text {
@@ -222,7 +223,7 @@ input:checked+.slider:before {
 }
 
 .digital-text h1 {
-  font-size: 35px;
+  font-size: 25px;
   width: 80%;
   font-weight: 500;
 }
@@ -315,12 +316,14 @@ input:checked+.slider:before {
   font-weight: 500;
   box-sizing: border-box;
 }
-.grey-line{
+
+.grey-line {
   width: 100px;
   height: 3px;
   background-color: rgb(206, 205, 205);
 }
-.kyc-3{
+
+.kyc-3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,13 +335,15 @@ input:checked+.slider:before {
   color: rgb(206, 205, 205);
   border-radius: 50%;
 }
-.progress-text{
+
+.progress-text {
   display: flex;
   justify-content: space-between;
   padding-left: 10px;
   width: 490px;
   color: rgb(133, 131, 131);
 }
+
 .credit-card-service {
   background-color: rgb(241, 245, 248);
   margin: 50px 0;
@@ -346,22 +351,26 @@ input:checked+.slider:before {
   padding: 50px 20px;
   gap: 15px;
 }
-.credit-card-service h1{
+
+.credit-card-service h1 {
   font-size: 35px;
   width: 100%;
   padding-left: -100px;
 }
-.center{
+
+.center {
   text-align: center;
 }
-.services-cards{
+
+.services-cards {
   width: 90%;
   margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.card{
+
+.card {
   width: 30%;
   background-color: white;
   border-radius: 10px;
@@ -372,10 +381,12 @@ input:checked+.slider:before {
   padding: 20px 50px;
   box-shadow: 0px 5px 5px 0px rgb(226, 223, 223);
 }
-.card-margin{
+
+.card-margin {
   margin-left: 30px;
 }
-.card-color{
+
+.card-color {
   background-color: rgb(236, 17, 99);
   width: 40px;
   height: 40px;
@@ -383,33 +394,40 @@ input:checked+.slider:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
+
 .card-color img {
   width: 25px;
   height: 25px;
   filter: invert(1);
 }
+
 .card h2 {
   margin: 0;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 1rem;
 }
-.card p{
+
+.card p {
   text-align: center;
-  width: 350px;
+  width: 310px;
   color: grey;
+  font-size: 0.8rem;
 }
-.card:hover{
+
+.card:hover {
   box-shadow: 2px 5px 5px 4px rgb(223, 197, 206);
 }
-.card:hover h2{
+
+.card:hover h2 {
   color: rgb(236, 17, 99);
 }
-.card-for-u{
+
+.card-for-u {
   width: 100%;
   height: 120px;
-  background-color: rgb(152,20,77);
+  background-color: rgb(152, 20, 77);
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -417,29 +435,35 @@ input:checked+.slider:before {
   box-sizing: border-box;
   padding: 0 20px;
 }
-.card-for-u div img{
+
+.card-for-u div img {
   width: 60px;
   height: 60px;
 }
-.card-img-text{
+
+.card-img-text {
   display: flex;
   color: white;
 }
-.card-img-text{
+
+.card-img-text {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.card-img-text div h2{
+
+.card-img-text div h2 {
   margin: 0;
   font-weight: 400;
 }
-.card-img-text div p{
+
+.card-img-text div p {
   margin: 0;
 }
-.explore-button button{
-  color: rgb(152,20,77);
-  background-color: rgb(249,249,249);
+
+.explore-button button {
+  color: rgb(152, 20, 77);
+  background-color: rgb(249, 249, 249);
   font-weight: 600;
   font-size: 15PX;
   margin-right: 50px;
@@ -447,30 +471,41 @@ input:checked+.slider:before {
   border: none;
   border-radius: 10px;
 }
-.mastering-credit-card{
+
+.mastering-credit-card {
   display: flex;
   background-color: rgb(241, 245, 248);
+  height: 620px;
+  border-radius: 20px;
 }
-.master-credit-card-text{
-  /* width: 50%; */
+
+.mastering-credit-card img {
+  width: 50%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
 }
-.master-credit-card-text h1{
-  font-size: 35px;
-  width: 480px;
+
+.master-credit-card-text h1 {
+  font-size: 2rem;
+  width: 380px;
   margin-bottom: 10px;
 }
-.master-credit-card-text p{
+
+.master-credit-card-text p {
   margin: 0;
-  width: 550px;
-  color: rgb(128,128,128);
+  width: 450px;
+  color: rgb(128, 128, 128);
+  font-size: 1rem;
 }
-.mastering-cards-container{
+
+.mastering-cards-container {
   display: flex;
   margin-top: 40px;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
 }
-.master-card-icon{
+
+.master-card-icon {
   width: 50px;
   height: 50px;
   background-color: rgb(236, 17, 99);
@@ -479,69 +514,375 @@ input:checked+.slider:before {
   align-items: center;
   border-radius: 15px;
 }
-.master-card-icon img{
+
+.master-card-icon img {
   width: 25px;
   height: 25px;
   filter: invert(1);
 }
-.mastering-card h3{
+
+.mastering-card h3 {
   margin-bottom: 10px;
-  width: 300px;
+  width: 220px;
+  font-size: 1.1rem;
 }
-.mastering-card p{
+
+.mastering-card p {
   margin: 0;
-  width: 300px;
+  width: 200px;
+  font-size: 0.9rem;
 }
-.unlearn-container h1{
+
+.unlearn-container h1 {
   font-size: 35px;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 10px;
 }
-.unlearn-container p{
+
+.unlearn-container p {
   color: grey;
   text-align: center;
   margin: 0;
 }
-.unlearn-card-container{
+
+.unlearn-card-container {
   display: flex;
   max-width: 100%;
   gap: 30px;
   margin-top: 30px;
 }
-.unlearn-card{
-width: 30%;
+
+.unlearn-card {
+  width: 30%;
 }
-.unlearn-card img{
+
+.unlearn-card img {
   width: -webkit-fill-available;
 }
-.unlearn-card span{
+
+.unlearn-card span {
   background-color: rgb(241, 245, 248);
   padding: 0 8px;
   border-radius: 5px;
   color: rgb(97, 97, 97);
+  font-size: 0.8rem;
 }
-.unlearn-card h3{
+
+.unlearn-card h3 {
   font-weight: 600;
   margin-bottom: 10px;
-  width: 400px;
-  font-size: 1.15em;
+  width: 330px;
+  font-size: 1rem;
 }
-.unlearn-card p{
- text-align: left;
- font-size: 15px;
- margin: 0;
+
+.unlearn-card p {
+  text-align: left;
+  font-size: 0.8rem;
+  margin: 0;
 }
-.unlearn-button{
-  margin-top: 50px ;
+
+.unlearn-button {
+  margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
 }
-.unlearn-button button{
-  background-color: rgb(152,20,77);
+
+.unlearn-button button {
+  background-color: rgb(152, 20, 77);
   border: none;
   padding: 15px 30px;
   border-radius: 10px;
   color: white;
   font-weight: 500;
+}
+
+.hidden {
+  display: none;
+}
+
+@media all and (max-width: 500px) {
+  .main-container {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .text-toggle-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .text-toggle-container div h1 {
+    font-size: 1.2rem;
+  }
+
+  .toggle-wrapper {
+    gap: 15px;
+  }
+
+  .switch {
+    width: 40px;
+    height: 20px;
+  }
+
+  .slider:before {
+    height: 15px;
+    width: 15px;
+  }
+
+  .toggle-text {
+    font-size: 11px;
+  }
+
+  .how-to-apply {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .how-to-apply-text {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    padding: 20px;
+    height: auto;
+  }
+
+  .text-color {
+    font-size: 0.8rem;
+  }
+
+  .how-to-apply-text h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .list-text-container {
+    gap: 30px;
+  }
+
+  .list-text div h2 {
+    font-size: 1.1rem
+  }
+
+  .list-text div span {
+    font-size: 10px;
+  }
+
+  .dashed-list li {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 35px;
+  }
+
+  .dashed-list li:first-child {
+    background-color: rgb(236, 17, 99);
+    color: white;
+  }
+
+  .dashed-list li::after {
+    height: 35px;
+  }
+
+  .list-text {
+    gap: 25px;
+  }
+
+  .video-container {
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    height: 400px;
+    background-size: cover;
+  }
+
+  .everything-digital-container {
+    flex-direction: column-reverse;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .digital-text {
+    padding: 10px;
+  }
+
+  .digital-text h1 {
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .icon-text span {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bank-icon div h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .icon-text {
+    gap: 30px;
+  }
+
+  .bank-icon {
+    gap: 20px;
+  }
+
+  .progress {
+    padding-left: 10px;
+  }
+
+  .color-line {
+    width: 50px;
+  }
+
+  .grey-line {
+    width: 50px;
+  }
+
+  .progress-text {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .progress-text div {
+    font-size: 15px;
+  }
+
+  .digital-text div {
+    text-align: center;
+  }
+
+  .everything-digital-container img {
+    width: fit-content;
+    height: 400px;
+  }
+
+  .services-cards {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .credit-card-service {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .credit-card-service h1 {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+
+  .center p {
+    font-size: 0.9rem;
+    color: grey;
+  }
+
+  .card-margin {
+    margin: 0;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .hidden {
+    display: block;
+    margin: 0;
+  }
+
+  .card-for-u {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 20px;
+    gap: 30px;
+  }
+
+  .card-img-text {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .card-img-text div {
+    text-align: center;
+  }
+
+  .card-img-text div h2 {
+    font-size: 1.5rem;
+  }
+
+  .card-img-text div p {
+    font-size: 0.9rem;
+  }
+
+  .mastering-credit-card {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .master-credit-card-text h1 {
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .master-credit-card-text {
+    text-align: center;
+  }
+  .master-credit-card-text p {
+    font-size: 0.9rem;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.mastering-cards-container{
+  width: 100%;
+  justify-content: center;
+}
+.mastering-card{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mastering-card p{
+  padding: o 50px;
+}
+.master-img > img{
+  width: 100%;
+  margin-top: 50px;
+}
+
+
+.unlearn-card-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+}
+
+.unlearn-card {
+  width: 80%;
+  scroll-snap-align: center;
+  flex: none;
+}
+
+.unlearn-card img {
+  width: 100%; 
+}
+.unlearn-card h3{
+  width: 100%;
+}
+.explore-button button{
+  margin-right: 0;
+}
 }
