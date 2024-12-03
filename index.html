@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <section class="text-toggle-container">
+            <div>
+                <h1 class="font-weight">Get your card the digital way</h1>
+            </div>
+            <div class="toggle-wrapper">
+                <span id="newToBankText" class="toggle-text active">New to Bank</span>
+                <label class="switch">
+                    <input type="checkbox" id="toggleSwitch" onclick="toggleText()">
+                    <span class="slider"></span>
+                </label>
+                <span id="existingToBankText" class="toggle-text">Existing to Bank</span>
+            </div>
+        </section>
+        <section class="how-to-apply">
+            <div class="how-to-apply-text">
+                <div>
+                    <h1 class="font-weight">How to Apply?</h1>
+                    <p class="text-color">Get your card by following the mentioned steps and submit necessary documents.
+                    </p>
+                </div>
+                <div class="list-text-container">
+                    <ul class="dashed-list">
+                        <li>01</li>
+                        <li>02</li>
+                        <li>03</li>
+                    </ul>
+                    <div class="list-text">
+                        <div>
+                            <h2>Online or Offline</h2>
+                            <span class="text-color"><a class="text-color" href="#">Click here</a> or visit your
+                                nearest</span>
+                        </div>
+                        <div>
+                            <h2>Enter Details</h2>
+                            <span class="text-color">Provide basic details such as name, mobile number, PAN and check
+                                your credit card eligibility</span>
+                        </div>
+                        <div>
+                            <h2>Choose your Card</h2>
+                            <span class="text-color">Select from our wide range of credit card offers and complete your
+                                application</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container" id="videoContainer">
+                <div class="video-overlay" id="videoOverlay">
+                    <iframe src="https://www.youtube.com/embed/HqSiG_5UARA?si=yeY4y3p7XfbKTYQE?autoplay=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="everything-digital-container section-gap">
+            <img src="./assets/everything-digital.png" alt="everything-digital">
+            <div class="digital-text">
+                <h1 class="font-weight">Everything digital now without paper or physical visit</h1>
+                <div class="icon-text">
+                    <div class="bank-icon">
+                        <span>
+                            <img src="./assets/balance.png" alt="bank" />
+                        </span>
+                        <div>
+                            <h2>5100+</h2>
+                            <p>Branches</p>
+                        </div>
+                    </div>
+                    <div class="bank-icon">
+                        <span>
+                            <img src="./assets/credit-card.png" alt="credit-card" />
+                        </span>
+                        <div>
+                            <h2>9400+</h2>
+                            <p>ATMs</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Video KYC process</h3>
+                    <div class="kyc-process-list">
+                        <div class="progress">
+                            <div class="kyc-1">1</div>
+                            <div class="color-line">
+                            </div>
+                            <div class="kyc-2">2</div>
+                            <div class="grey-line"></div>
+                            <div class="kyc-3">3</div>
+                            <div class="grey-line"></div>
+                            <div class="kyc-3">4</div>
+                        </div>
+                        <div class="progress-text">
+                            <div>Customer</div>
+                            <div>Shipping</div>
+                            <div>Payment</div>
+                            <div>Confirm</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <button>Show Results</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="credit-card-service">
+        <div class="center">
+            <h1 class="font-weight">Credit card services</h1>
+            <p>A diverse range of services, including rewards, travel perks, fraud protection and more that add value to
+                your transactions.</p>
+        </div>
+        <div class="services-cards">
+            <div class="card card-margin">
+                <div class="card-color">
+                    <img src="./assets/support.png" alt="support" />
+                </div>
+                <h2>Card Services</h2>
+                <p>Easy-to-use, providing a seamless and convenient way to spend</p>
+            </div>
+            <div class="card ">
+                <div class="card-color">
+                    <img src="./assets/prevention.png" alt="prevention" />
+                </div>
+                <h2>Card Protection</h2>
+                <p>Secure your card with services like fraud monitoring, duplicate card etc.</p>
+            </div>
+            <div class="card ">
+                <div class="card-color">
+                    <img src="./assets/benefits.png" alt="benefits" />
+                </div>
+                <h2>Card benefits</h2>
+                <p>Maximize your spends with rewards, cash back,etc. on every purchase.</p>
+            </div>
+            <div class="card card-margin">
+                <div class="card-color">
+                    <img src="./assets/verified.png" alt="authentication" />
+                </div>
+                <h2>Credit card Authentication</h2>
+                <p>Stay informed about your card through monitoring services.</p>
+            </div>
+            <div class="card ">
+                <div class="card-color">
+                    <img src="./assets/settings.png" alt="control" />
+                </div>
+                <h2>Control Center</h2>
+                <p>Flexible installment plans, sllowing smaller, more manageable payments.</p>
+            </div>
+            <div class="card ">
+                <div class="card-color">
+                    <img src="./assets/pin.png" alt="location" />
+                </div>
+                <h2>Locate Branch</h2>
+                <p>Flexible installment plans, sllowing smaller, more manageable payments.</p>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="main-container">
+        <section class="card-for-u">
+            <div class="card-img-text">
+                <img src="./assets/card-for-u.png" alt="credit card" />
+                <div>
+                    <h2>Cards for you</h2>
+                    <p>You'll fing the right card for every need in life</p>
+                </div>
+            </div>
+            <div class="explore-button">
+                <button>Explore now</button>
+            </div>
+        </section>
+        <section class="mastering-credit-card section-gap">
+            <img src="./assets/master-credit-card.png" alt="master-credit-card" />
+            <div class="master-credit-card-text">
+                <h1 class="font-weight">Mastering credit cards, now simple</h1>
+                <p>Managing your credit cards includes spending strategically, timely payments and avoiding frauds.</p>
+                <div class="mastering-cards-container">
+                    <div class="mastering-card">
+                        <div class="master-card-icon">
+                            <img src="./assets/payment.png" alt="payment" />
+                        </div>
+                        <h3>On-time payments</h3>
+                        <p>Prioritize paying on time.</p>
+                    </div>
+                    <div class="mastering-card">
+                        <div class="master-card-icon">
+                            <img src="./assets/review.png" alt="review">
+                        </div>
+                        <h3>Review card statement</h3>
+                        <p>Track expenses through card statement.</p>
+                    </div>
+                    <div class="mastering-card">
+                        <div class="master-card-icon">
+                            <img src="./assets/diamond.png" alt="cashback">
+                        </div>
+                        <h3>Cash back and rewards</h3>
+                        <p>Great way to earn while you spend.</p>
+                    </div>
+                    <div class="mastering-card">
+                        <div class="master-card-icon">
+                            <img src="./assets/incognito.png" alt="avoid">
+                        </div>
+                        <h3>Avoid frauds</h3>
+                        <p>Take care of your credit card pin and other details.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="unlearn-container">
+            <h1 class="font-weight">Unlearn</h1>
+            <p>There are many variations of passages of lorem ipsum available nut the majority have suffered alternation in some form.</p>
+            <div class="unlearn-card-container">
+                <div class="unlearn-card">
+                    <img src="./assets/blog1.webp" alt="web-share"/>
+                    <span>DEC 22, 2023</span>
+                    <h3>Building a savings habit simplified with 5 easy steps</h3>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="unlearn-card">
+                    <img src="./assets/blog2.webp" alt="web-share"/>
+                    <span>DEC 22, 2023</span>
+                    <h3>6 things to consider before opening a  savings Account</h3>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="unlearn-card">
+                    <img src="./assets/blog2.webp" alt="web-share"/>
+                    <span>DEC 22, 2023</span>
+                    <h3>Opening a savings account via video KYC</h3>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <div class="unlearn-button">
+                <button>View more</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
